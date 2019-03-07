@@ -8,6 +8,7 @@ import PinPanelScreen from './screens/PinPanelScreen';
 import HomeScreen from './screens/HomeScreen';
 import InfoScreen from './screens/InfoScreen';
 import AddSecretScreen from './screens/AddSecretScreen';
+import EditSecretScreen from './screens/EditSecretScreen';
 
 import TmpScreen from './screens/TmpScreen';
 import AuthScreen from './screens/AuthScreen';
@@ -83,6 +84,7 @@ export default createAppContainer(createSwitchNavigator(
     App: AppStack,
     Auth: AuthScreen,
     Tmp: TmpScreen,
+    EditItem: EditSecretScreen,
   },
   {
     initialRouteName: 'Auth',
